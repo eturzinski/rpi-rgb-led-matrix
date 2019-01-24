@@ -49,6 +49,19 @@ static void DrawOnCanvas(Canvas *canvas) {
     canvas->SetPixel(7,1,255, 0, 0);
     canvas->SetPixel(7,3,255, 0, 0);
     canvas->SetPixel(7,5,255, 0, 0);
+
+    canvas->SetPixel(9,1,255, 0, 0);
+    canvas->SetPixel(9,2,255, 0, 0);
+    canvas->SetPixel(9,3,255, 0, 0);
+    canvas->SetPixel(9,4,255, 0, 0);
+    canvas->SetPixel(9,5,255, 0, 0);
+    canvas->SetPixel(10,1,255, 0, 0);
+
+    canvas->SetPixel(3,1,255, 0, 0);
+    canvas->SetPixel(3,2,255, 0, 0);
+    canvas->SetPixel(3,3,255, 0, 0);
+    canvas->SetPixel(3,4,255, 0, 0);
+    canvas->SetPixel(3,5,255, 0, 0);
   while(1){
   }
 
