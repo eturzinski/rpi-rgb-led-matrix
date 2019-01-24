@@ -27,7 +27,9 @@ static void DrawOnCanvas(Canvas *canvas) {
    * pixels. We wait between each step to have a slower animation.
    */
   canvas->Fill(0, 0, 255);
+  while(1){
   canvas->SetPixel(0,0,255, 0, 0);
+  }
 
 //  int center_x = canvas->width() / 2;
 //  int center_y = canvas->height() / 2;
