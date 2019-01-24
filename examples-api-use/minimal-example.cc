@@ -45,7 +45,7 @@ static void DrawOnCanvas(Canvas *canvas) {
 
 int main(int argc, char *argv[]) {
   RGBMatrix::Options defaults;
-  defaults.hardware_mapping = "adafruit-hat"
+  defaults.hardware_mapping = "adafruit-hat";
   defaults.rows = 16;
   defaults.chain_length = 1;
   defaults.parallel = 1;
