@@ -28,15 +28,15 @@ static void DrawOnCanvas(Canvas *canvas) {
    */
     canvas->SetPixel(1,1,255, 0, 0);
     canvas->SetPixel(1,2,255, 0, 0);
-    canvas->SetPixel(0,0,255, 0, 0);
-    canvas->SetPixel(0,0,255, 0, 0);
-    canvas->SetPixel(0,0,255, 0, 0);
-    canvas->SetPixel(0,0,255, 0, 0);
-    canvas->SetPixel(0,0,255, 0, 0);
-    canvas->SetPixel(0,0,255, 0, 0);
-    canvas->SetPixel(0,0,255, 0, 0);
-    canvas->SetPixel(0,0,255, 0, 0);
-    canvas->SetPixel(0,0,255, 0, 0);
+    canvas->SetPixel(1,3,255, 0, 0);
+    canvas->SetPixel(1,4,255, 0, 0);
+    canvas->SetPixel(1,5,255, 0, 0);
+    canvas->SetPixel(2,3,255, 0, 0);
+    canvas->SetPixel(3,1,255, 0, 0);
+    canvas->SetPixel(3,2,255, 0, 0);
+    canvas->SetPixel(3,3,255, 0, 0);
+    canvas->SetPixel(3,4,255, 0, 0);
+    canvas->SetPixel(3,5,255, 0, 0);
   while(1){
   }
 
